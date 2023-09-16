@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My City</title>
+
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      #age {
+        width: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Atlantica</h1>
+      <p>The City Of Ocean Dreams!</p>
+    </header>
+    <nav>
+      <a href="#">Description</a> |
+      <a href="#">Attraction</a> |
+      <a href="#">Statices</a> |
+      <a href="#">Feedback</a> |
+      <a href="#">Quotes</a> |
+      <a href="#">Contact</a> 
+    </nav>
+    <section id="city-description">
+      <h2>Discover Atalantica</h2>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQss1Ne9Idb01HwdSvUOlvUfysZsVOe3xgIbAJD16rIrP-uFcktfVSN7AG8eNDQoGrPGjw&usqp=CAU"
+        alt="image"
+      />
+    </section>
+    <section id="attractions">
+      <h2>Attractions</h2>
+      <h3>Main Attractions</h3>
+      <ol>
+        <li>Atlantis Tower</li>
+        <li>Deep Sea Museum</li>
+        <li>The Oceanic Bridge</li>
+      </ol>
+      <h3>Local Favorites</h3>
+      <ul>
+        <li>Merman's Street</li>
+        <li>Neptune's Diner</li>
+        <li>
+          Atalantica Beaches
+
+          <ul>
+            <li>North Beach</li>
+            <li>Reef Bay</li>
+            <li>Mermaid Corve</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="city-statistics">
+      <h2>City Statistics</h2>
+      <table style="border: 1px solid black">
+        <thead>
+          <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Population</td>
+            <td>5 Million</td>
+          </tr>
+
+          <tr>
+            <td>Landmarks</td>
+            <td>25</td>
+          </tr>
+
+          <tr>
+            <td>Parks</td>
+            <td>18</td>
+          </tr>
+
+          <tr>
+            <td>Schools</td>
+            <td>120</td>
+          </tr>
+          <tr>
+            <td>Beaches</td>
+            <td>7</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="citizen-feedback">
+      <h2>Citizen Feedback</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required /><br />
+
+        <label for="Favorites">Favorites Attraction:</label>
+        <select id="Favorites" name="Favorites">
+          <option value="Atlantis Tower">Atlantis Tower</option>
+          <option value="Deep Sea Museum">Deep Sea Museum</option>
+          <option value="The Oceanic Bridge">The Oceanic Bridge</option></select
+        ><br />
+
+        <label for="Comments">Comments:</label>
+        <textarea id="Comments" name="Comments" rows="4" required></textarea
+        ><br />
+
+        <label for="subscribe"> Newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe" /> Subscribe to
+        our newsletter<br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <section id="quotes">
+      <h2>What Citizens Say</h2>
+      <p>
+        <span
+          >"Atalantica's beaches are paradisse on Earth . Nothing beats a sunset
+          here!."</span
+        >
+        - Alex
+      </p>
+      <p>
+        <span
+          >"The blend of modern skyscrapers and ancient oceanic history is
+          mesmerizing!"</span
+        >
+        - Isabelle
+      </p>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <address>
+        <p><em>Atlantics Tourism Office</em></p>
+        <p>100 Occean Drive, Atalantica</p>
+        <p>
+          Email: <a href="#"><em>info@atlantica.com</em></a>
+        </p>
+        <p>Phone: <em>123-456-7890</em></p>
+      </address>
+    </section>
+    <footer>
+      <p>&copy; 2023 Atlantica Tourism , Dive into Dreams !</p>
+    </footer>
+  </body>
+</html>
